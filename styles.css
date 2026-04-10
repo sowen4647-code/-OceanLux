@@ -160,3 +160,19 @@ nav a {
 .activities-page .split:nth-child(even) .split-text {
   text-align: right;
 }
+
+.activities-page .split img {
+  width: 750px;
+  max-width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.activities-page .split-text h2 {
+  margin-bottom: 15px;
+}
+
+.activities-page.split-text p {
+  margin-top: 0;
+  line-height: 1.6;
+}
