@@ -166,9 +166,11 @@ nav a {
 
 .activities-page .split-text h2 {
   margin-bottom: 10px;
+  font-size: 35px;
 }
 
 .activities-page .split-text p {
   margin-top: 0;
   line-height: 1.5;
+  font-size: 20px;
 }
