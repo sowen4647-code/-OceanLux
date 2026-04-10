@@ -147,32 +147,28 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 60px;
-  gap: 40px;
+  gap: 15px;
   flex-wrap: wrap;
 }
 
 .activities-page .split-text {
-  max-width: 500px;
+  max-width: 480px;
   text-align: left;
 }
 
-.activities-page .split:nth-child(even) .split-text {
-  text-align: right;
-}
-
 .activities-page .split img {
-  width: 750px;
-  max-width: 100%;
-  border-radius: 12px;
+  width: 780px;
+  height: 450px;
   object-fit: cover;
+  object-position: left;
+  transform: scale(1.09);
 }
 
 .activities-page .split-text h2 {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
-.activities-page.split-text p {
+.activities-page .split-text p {
   margin-top: 0;
-  line-height: 1.6;
+  line-height: 1.5;
 }
