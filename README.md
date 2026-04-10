@@ -40,3 +40,4 @@ AI usage:
     - Help with information on why code wasnt working with other members
     - images breaking 
     - problems with spacing 
+    - AI also helped with some of the comments but comments where then changed after (purely used for nagivational purposes at first)
