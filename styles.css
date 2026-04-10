@@ -142,3 +142,21 @@ nav a {
 .activities-page .section:nth-of-type(even) .split {
   flex-direction: row-reverse;
 }
+
+.activities-page .split {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.activities-page .split-text {
+  max-width: 500px;
+  text-align: left;
+}
+
+.activities-page .split:nth-child(even) .split-text {
+  text-align: right;
+}
