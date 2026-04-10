@@ -136,3 +136,9 @@ nav a {
   }
 }
 
+
+/* Activities page styles */
+
+.activities-page .section:nth-of-type(even) .split {
+  flex-direction: row-reverse;
+}
