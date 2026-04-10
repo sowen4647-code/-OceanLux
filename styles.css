@@ -179,3 +179,13 @@ nav a.active {
   color: #2563eb;
   font-weight: bold;
 }
+
+.activities-page .section::after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 1px;
+  background: #2563eb;
+  margin: 50px auto 0;
+  opacity: 0.5;
+}
