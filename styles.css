@@ -267,3 +267,58 @@ nav a.active {
         height: 3.5rem;
     }
 }
+
+/* hamburger navbar section */
+
+.mobile-nav-toggle {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2000;
+    background: url('hamburger.png') no-repeat;
+    background-size: contain;
+    width: 2rem;
+    border: 0;
+    aspect-ratio: 1;
+    cursor: pointer;
+}
+
+.primary-navigation {
+    position: fixed;
+    inset: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: min(20vh, 10rem) 2rem;
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: transform 350ms ease-out;
+}
+
+.primary-navigation[data-visible="true"] {
+    transform: translateX(0);
+    list-style: none;
+}
+
+.mobile-nav-toggle[aria-expanded="true"] {
+    background: url('hamburger_close.png') no-repeat;
+    background-size: contain;
+}
+
+/* Responsive Details for Mobile Users */
+@media (min-width: 800px) {
+    .mobile-nav-toggle {
+        display: none;
+    }
+
+    .primary-navigation {
+        position: static;
+        inset: auto;
+        transform: none;
+        flex-direction: row;
+        padding: 0;
+        background-color: transparent;
+        transition: none;
+    }
+}
